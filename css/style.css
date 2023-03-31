@@ -136,7 +136,7 @@ img {
     }
  }
 
- 
+
 
   /* responsive - mobile */
   @media screen and (max-width:480px) {
@@ -187,7 +187,7 @@ img {
         font-size: 3rem;
     }
 
-    .why-us .container .row .col-right h3 {
+    h3 {
         font-size: 2rem;
     }
  }
