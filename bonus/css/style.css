@@ -128,11 +128,27 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+/* BONUS - responsive desktop */
+.lessons .container, .steps .container, .why-us .container {
+    padding: 0 8rem;
+}
+
+@media screen and (min-width:768px) and (max-width:1160px) {
+    .lessons .container, .steps .container, .why-us .container {
+        padding: 0 5rem;
+        max-width: 1160px;
+        width: 100%;
+    }
+ }
+
+
+
  /* responsive - tablet */
  @media screen and (max-width:768px) {
     .lessons .container, .steps .container, .why-us .container {
         max-width: 768px;
         width: 100%;
+        padding: 0 0;
     }
  }
 
@@ -154,6 +170,7 @@ img {
 
     .lessons .container, .steps .container, .why-us .container {
         max-width: 480px;
+        padding: 0 0;
     }
 
     .lessons .container .row, .steps .container .row, .why-us .container .row {
