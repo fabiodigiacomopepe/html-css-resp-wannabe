@@ -127,3 +127,67 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ /* responsive - tablet */
+ @media screen and (max-width:768px) {
+    .lessons .container, .steps .container, .why-us .container {
+        max-width: 768px;
+        width: 100%;
+    }
+ }
+
+ 
+
+  /* responsive - mobile */
+  @media screen and (max-width:480px) {
+    body {
+        font-size: 1.3em;
+    }
+
+    .lessons .col img, .steps .col img {
+        height: 300px;
+    }
+
+    .lessons .container, .steps .container, .why-us .container, .lessons .container .row .col, .steps .container .row .col, .why-us .container .row .col {
+        width: 100%;
+    }
+
+    .lessons .container, .steps .container, .why-us .container {
+        max-width: 480px;
+    }
+
+    .lessons .container .row, .steps .container .row, .why-us .container .row {
+        display: block;
+    }
+
+    .lessons .container .row .col, .steps .container .row .col, .why-us .container .row .col-left {
+        margin-bottom: 3rem;
+    }
+
+    .steps, .steps .container .row .col:last-child {
+        margin: 0 0;
+    }
+
+    .why-us {
+        background-color: #222222;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        margin-bottom: -3rem;
+    }
+
+    header h1 {
+        font-size: 3.2rem;
+    }
+
+    .lessons .container h2 {
+        font-size: 2.5rem;
+    }
+
+    .steps .container h2, .why-us .container h2 {
+        font-size: 3rem;
+    }
+
+    .why-us .container .row .col-right h3 {
+        font-size: 2rem;
+    }
+ }
